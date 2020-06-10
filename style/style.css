@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Franklin";
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.looks{
+    font-size: 2em;
+    color: gray;
+}
+.bold{
+    font-weight: bold;
+    color: black;
+}
+
+
+picture img{
+    width: 45%;
+    margin-top: 60px;
+}
+
+.text{
+    margin-top: 50px;
+}
+
+
+.email{
+    margin-top: 30px;
+}
+.group{
+    display: flex;
+    margin-left: 25%;
+}
+.submit{
+    margin-left: 8px;
+    width: 20%;
+}
+
+.input{
+    width: 50% !important;
+}
+
+.icons{
+    margin-top: 70px;
+}
+
+.copyright{
+    margin-top: 40px;
+    color: gray ;
+}
+
+
+@media screen and (max-width: 880px){
+
+    .looks{
+        font-size: 1.5em;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    
+    .group{
+        flex-direction: column;
+    }
+
+    .submit{
+        width: 120%;
+        margin-left: -25% !important;
+        margin-top: 10px;
+    }
+
+    .input{
+        width: 120% !important;
+        margin-left: -25%;
+    }
+    
+    picture img{
+        width: 100%;
+        margin-top: 60px;
+    }
+}
+
